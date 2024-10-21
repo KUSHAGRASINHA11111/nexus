@@ -46,7 +46,7 @@ function takeCommand(message){
     if(message.includes("hello")||message.includes("hey") ||message.includes("hii")){
         speak("hello sir,what can i help you?")
     }
-    else if(message.includes("what can you do for me") || message.includes("what things you can do nexus"){
+    else if(message.includes("what can you do for me") || message.includes("what things you can do nexus")){
         speak("I can assist with a wide range of tasks like browsing, searching apps and many more")
     }
     else if(message.includes("who are you")){
